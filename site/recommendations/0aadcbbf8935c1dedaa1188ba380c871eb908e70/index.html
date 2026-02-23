@@ -482,7 +482,7 @@
 
 <body>
   <p>
-  <i class="footer">This page was last updated on 2026-02-16 10:03:02 UTC</i>
+  <i class="footer">This page was last updated on 2026-02-23 10:03:27 UTC</i>
   </p>
 
   <div class="note info" onclick="startIntro()">
@@ -522,7 +522,7 @@
           <td>2024-02-19</td>
           <td>Nature Communications</td>
           <td>24</td>
-          <td>29</td>
+          <td>30</td>
         </tr>
 
         <tr id="Focal amplifications in the cancer genome, particularly extrachromosomal DNA (ecDNA) amplifications, are emerging as a pivotal event in cancer progression across diverse cancer contexts, presenting a paradigm shift in our understanding of tumor dynamics. Simultaneously, identification of the various modes of focal amplifications is bioinformatically challenging. We present AmpliconSuite, a collection of tools that enables robust identification of focal amplifications from whole-genome sequencing data. AmpliconSuite includes AmpliconSuite- pipeline; utilizing the AmpliconArchitect (AA) method, and AmpliconRepository.org; a community- editable website for the sharing of focal amplification calls. We also describe improvements made to AA since its initial release that improve its accuracy and speed. As a proof of principle, we utilized publicly available pan-cancer datasets encompassing 2,525 tumor samples hosted on AmpliconRepository.org to illustrate important properties of focal amplifications, showing ecDNA has higher copy number, and stronger oncogene enrichment, compared to other classes of focal amplifications. Finally, we illustrate how AmpliconSuite-pipeline enables delineation of the various mechanisms by which ecDNA forms.">
@@ -533,7 +533,7 @@
           </td>
           <td>2024-05-10</td>
           <td>bioRxiv</td>
-          <td>14</td>
+          <td>15</td>
           <td>76</td>
         </tr>
 
@@ -545,7 +545,7 @@
           </td>
           <td>2026-01-29</td>
           <td>Genome Biology</td>
-          <td>0</td>
+          <td>1</td>
           <td>24</td>
         </tr>
 
@@ -621,16 +621,29 @@
           <td>16</td>
         </tr>
 
-        <tr id="None">
+        <tr id="BACKGROUND
+Extrachromosomal circular DNA (eccDNA) is increasingly recognized as a critical driver of oncogene amplification, therapeutic resistance, and intratumoral heterogeneity in cancer. However, existing computational approaches predominantly focus on eccDNA detection and structural identification, without addressing their functional or clinical significance in oncogenesis.
+
+
+METHODS
+We developed eccDNA2Ca, an interpretable ensemble learning framework that integrates extreme gradient boosting (XGBoost) with deep neural networks (CNN and LSTM) to predict cancer-associated eccDNAs directly from raw sequences. A manually curated dataset comprising 465 experimentally validated human eccDNAs across 16 cancer types was compiled from 21 studies. Models were trained using both engineered genomic features and deep sequence encodings. Interpretability was achieved through SHAP analysis and motif discovery. The final ensemble model was validated on external datasets and implemented as an open-source command-line tool.
+
+
+RESULTS
+eccDNA2Ca demonstrated superior performance (AUC > 0.96, AUPR > 0.95) across cross-validation and independent test sets, outperforming conventional classifiers. Feature interpretation revealed the dominant contribution of repeat content and specific k-mer frequencies, while motif analysis identified enrichment of zinc finger transcription factor binding sites among cancer-specific eccDNAs. Pan-cancer validation using TCGA data showed strong associations between predicted eccDNAs and tumor mutational burden, immune infiltration, microsatellite instability, and patient survival. Importantly, the model demonstrated robust generalizability across tumor types and eccDNA size categories.
+
+
+CONCLUSIONS
+eccDNA2Ca represents the first interpretable and publicly available computational framework specifically designed to prioritize cancer-relevant eccDNAs after experimental detection based on sequence features. By enabling scalable and biologically informed prioritization of eccDNAs, eccDNA2Ca provides a valuable resource for eccDNA functional studies, cancer biomarker discovery, and translational cancer genomics. Source code and datasets are freely available at: https://github.com/bread1006/eccDNA2Ca. An interactive web server implementing eccDNA2Ca is accessible at: http://43.138.143.50:5000/en.">
           <td id="tag"><i class="material-icons">visibility_off</i></td>
-          <td><a href="https://www.semanticscholar.org/paper/c8cdfe871f2a906538ca54506da314022480cca0" target='_blank'>ECGA: A web server to explore and analyze extrachromosomal gene in cancer</a></td>
+          <td><a href="https://www.semanticscholar.org/paper/0f6092b8a651bd839695f90dfa1e215e67b73d48" target='_blank'>eccDNA2Ca: an ensemble deep learning framework for interpretable prediction of cancer-associated extrachromosomal circular DNA.</a></td>
           <td>
-            Nan Zhou, Li Peng, Zhiyu Zhang, Qiqi Luo, Huiran Sun, Jinku Bao, Yuping Ning, Xiaoqing Yuan
+            Lina Zhou, Mengxi Wang, Lingyun Zou
           </td>
-          <td>2024-11-01</td>
-          <td>Computational and Structural Biotechnology Journal</td>
-          <td>2</td>
-          <td>6</td>
+          <td>2026-02-01</td>
+          <td>Journal of advanced research</td>
+          <td>0</td>
+          <td>1</td>
         </tr>
 
   </tbody>
