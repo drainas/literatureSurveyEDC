@@ -482,7 +482,7 @@
 
 <body>
   <p>
-  <i class="footer">This page was last updated on 2026-03-16 10:11:09 UTC</i>
+  <i class="footer">This page was last updated on 2026-03-23 10:10:04 UTC</i>
   </p>
 
   <div class="note info" onclick="startIntro()">
@@ -522,7 +522,7 @@
           <td>2024-02-19</td>
           <td>Nature Communications</td>
           <td>25</td>
-          <td>31</td>
+          <td>30</td>
         </tr>
 
         <tr id="Oncogene amplification on extrachromosomal DNA (ecDNA) is a common driver of tumor progression and is associated with acquired drug resistance and poor patient survival. While whole genome sequencing (WGS) studies have revealed the landscape of genes amplified on ecDNA in tumors, it remains challenging to study the subclonal heterogeneity and functional (e.g., transcriptomic) consequences of ecDNA on tumors. To address this, we introduce scAmp: a probabilistic algorithm for detecting and analyzing ecDNA from single-cell datasets. We demonstrate scAmp’s improved accuracy over WGS approaches on well-characterized cell-lines and its applicability to clinical histopathology. We further showcase scAmp by analyzing 73 patient tumors profiled with single-cell ATAC-seq, where we analyze the subclonal evolution of ecDNA+ subclones and identify the effect of ecDNA amplifications on the chromatin accessibility landscape of cancer cells. Together, we anticipate that scAmp will broadly enable further studies – both retrospective and prospective – that dissect critical questions of how ecDNA affect cancer cells and the tumors in which they reside.">
@@ -585,18 +585,6 @@
           <td>107</td>
         </tr>
 
-        <tr id="Abstract Cancer cells progressively evolve from a premalignant to a malignant state, which is driven by accumulating somatic alterations that confer normal cells a fitness advantage. Improvements in high-throughput sequencing techniques have led to an increase in construction of tumor phylogenetics and identification of somatic driver events that specifically occurred in different tumor progression stages. Here, we developed the SEECancer database (http://biocc.hrbmu.edu.cn/SEECancer), which aims to present the comprehensive cancer evolutionary stage-specific somatic events (including early-specific, late-specific, relapse-specific, metastasis-specific, drug-resistant and drug-induced genomic events) and their temporal orders. By manually curating over 10 000 published articles, 1231 evolutionary stage-specific genomic events and 5772 temporal orders involving 82 human cancers and 23 tissue origins were collected and deposited in the SEECancer database. Each entry contains the somatic event, evolutionary stage, cancer type, detection approach and relevant evidence. SEECancer provides a user-friendly interface for browsing, searching and downloading evolutionary stage-specific somatic events and temporal relationships in various cancers. With increasing attention on cancer genome evolution, the necessary information in SEECancer will facilitate understanding of cancer etiology and development of evolutionary therapeutics, and help clinicians to discover biomarkers for monitoring tumor progression.">
-          <td id="tag"><i class="material-icons">visibility_off</i></td>
-          <td><a href="https://www.semanticscholar.org/paper/3c50ee01be431fdb0fc32d3a19bb3f5d27bc210c" target='_blank'>SEECancer: a resource for somatic events in evolution of cancer genome</a></td>
-          <td>
-            Hongyi Zhang, Shangyi Luo, Xinxin Zhang, Jianlong Liao, Fei Quan, E. Zhao, Chenfen Zhou, Fulong Yu, Wenkang Yin, Yunpeng Zhang, Yun Xiao, Xia Li
-          </td>
-          <td>2017-10-23</td>
-          <td>Nucleic Acids Research</td>
-          <td>7</td>
-          <td>48</td>
-        </tr>
-
         <tr id="Extrachromosomal DNA (ecDNA), derived from chromosomes, is a cancer-specific circular DNA molecule. EcDNA drives tumor initiation and progression, which is associated with poor clinical outcomes and drug resistance in a wide range of cancers. Although ecDNA was first discovered in 1965, tremendous technological revolutions in recent years have provided crucial new insights into its key biological functions and regulatory mechanisms. Here, we provide a thorough overview of the methods, bioinformatics tools, and database resources used in ecDNA research, mainly focusing on their performance, strengths, and limitations. This study can provide important reference for selecting the most appropriate method in ecDNA research. Furthermore, we offer suggestions for the current bioinformatics analysis of ecDNA and provide an outlook to the future research.">
           <td id="tag"><i class="material-icons">visibility_off</i></td>
           <td><a href="https://www.semanticscholar.org/paper/64d4438021251d9b711c0baeb201445a5a06e8e0" target='_blank'>Methods, bioinformatics tools and databases in ecDNA research: An overview</a></td>
@@ -617,7 +605,7 @@
           </td>
           <td>2020-09-01</td>
           <td>Nature Communications</td>
-          <td>73</td>
+          <td>74</td>
           <td>107</td>
         </tr>
 
@@ -631,6 +619,31 @@
           <td>BMC Genomics</td>
           <td>9</td>
           <td>16</td>
+        </tr>
+
+        <tr id="BACKGROUND
+Extrachromosomal circular DNA (eccDNA) is increasingly recognized as a critical driver of oncogene amplification, therapeutic resistance, and intratumoral heterogeneity in cancer. However, existing computational approaches predominantly focus on eccDNA detection and structural identification, without addressing their functional or clinical significance in oncogenesis.
+
+
+METHODS
+We developed eccDNA2Ca, an interpretable ensemble learning framework that integrates extreme gradient boosting (XGBoost) with deep neural networks (CNN and LSTM) to predict cancer-associated eccDNAs directly from raw sequences. A manually curated dataset comprising 465 experimentally validated human eccDNAs across 16 cancer types was compiled from 21 studies. Models were trained using both engineered genomic features and deep sequence encodings. Interpretability was achieved through SHAP analysis and motif discovery. The final ensemble model was validated on external datasets and implemented as an open-source command-line tool.
+
+
+RESULTS
+eccDNA2Ca demonstrated superior performance (AUC > 0.96, AUPR > 0.95) across cross-validation and independent test sets, outperforming conventional classifiers. Feature interpretation revealed the dominant contribution of repeat content and specific k-mer frequencies, while motif analysis identified enrichment of zinc finger transcription factor binding sites among cancer-specific eccDNAs. Pan-cancer validation using TCGA data showed strong associations between predicted eccDNAs and tumor mutational burden, immune infiltration, microsatellite instability, and patient survival. Importantly, the model demonstrated robust generalizability across tumor types and eccDNA size categories.
+
+
+CONCLUSIONS
+eccDNA2Ca represents the first interpretable and publicly available computational framework specifically designed to prioritize cancer-relevant eccDNAs after experimental detection based on sequence features. By enabling scalable and biologically informed prioritization of eccDNAs, eccDNA2Ca provides a valuable resource for eccDNA functional studies, cancer biomarker discovery, and translational cancer genomics. Source code and datasets are freely available at: https://github.com/bread1006/eccDNA2Ca. An interactive web server implementing eccDNA2Ca is accessible at: http://43.138.143.50:5000/en.">
+          <td id="tag"><i class="material-icons">visibility_off</i></td>
+          <td><a href="https://www.semanticscholar.org/paper/0f6092b8a651bd839695f90dfa1e215e67b73d48" target='_blank'>eccDNA2Ca: an ensemble deep learning framework for interpretable prediction of cancer-associated extrachromosomal circular DNA.</a></td>
+          <td>
+            Lina Zhou, Mengxi Wang, Lingyun Zou
+          </td>
+          <td>2026-02-01</td>
+          <td>Journal of advanced research</td>
+          <td>0</td>
+          <td>4</td>
         </tr>
 
   </tbody>
